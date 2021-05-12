@@ -5,11 +5,11 @@ import Footer from './Footer';
 import '../styles/components/Layout.css'
 
 
-const Layout = ({ Children }) => {
+const Layout = ({children}) => {
     return ( 
         <div className='Main'>
             <Header />
-            {Children}
+            {children}
             <Footer />
         </div>
      );
